@@ -1,0 +1,16 @@
+{
+  "name": "caduceus",
+  "scripts": {
+    "sstart": "bun src/server/index.ts",
+    "sdev": "bun --watch src/server/index.ts",
+    "cstart": "bun src/client/index.ts",
+    "cdev": "bun --watch src/client/index.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
